@@ -1,5 +1,5 @@
 # githelper
-Git小助手  
+Git小助手APP  
 
 #简介  
 Git小助手  
@@ -9,4 +9,5 @@ Git小助手
 
 #微信公众号
 
+#
 
