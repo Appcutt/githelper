@@ -101,14 +101,11 @@
 		A5B64C1E1CAD32C500EA6299 /* GitHelper */ = {
 			isa = PBXGroup;
 			children = (
-				A5B64C221CAD32C500EA6299 /* AppDelegate.h */,
-				A5B64C231CAD32C500EA6299 /* AppDelegate.m */,
-				A5B64C251CAD32C500EA6299 /* ViewController.h */,
-				A5B64C261CAD32C500EA6299 /* ViewController.m */,
-				A5B64C281CAD32C500EA6299 /* Main.storyboard */,
+				A5B64C5E1CAD35CC00EA6299 /* Vender */,
+				A5B64C5D1CAD35BB00EA6299 /* Expand */,
+				A5B64C531CAD339100EA6299 /* Other */,
+				A5B64C521CAD338500EA6299 /* Main */,
 				A5B64C2B1CAD32C500EA6299 /* Assets.xcassets */,
-				A5B64C2D1CAD32C500EA6299 /* LaunchScreen.storyboard */,
-				A5B64C301CAD32C500EA6299 /* Info.plist */,
 				A5B64C1F1CAD32C500EA6299 /* Supporting Files */,
 			);
 			path = GitHelper;
@@ -117,6 +114,8 @@
 		A5B64C1F1CAD32C500EA6299 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A5B64C301CAD32C500EA6299 /* Info.plist */,
+				A5B64C2D1CAD32C500EA6299 /* LaunchScreen.storyboard */,
 				A5B64C201CAD32C500EA6299 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +137,79 @@
 				A5B64C461CAD32C500EA6299 /* Info.plist */,
 			);
 			path = GitHelperUITests;
+			sourceTree = "<group>";
+		};
+		A5B64C521CAD338500EA6299 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A5B64C221CAD32C500EA6299 /* AppDelegate.h */,
+				A5B64C231CAD32C500EA6299 /* AppDelegate.m */,
+				A5B64C591CAD33EA00EA6299 /* Home */,
+				A5B64C551CAD33BD00EA6299 /*  Other */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A5B64C531CAD339100EA6299 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		A5B64C551CAD33BD00EA6299 /*  Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = " Other";
+			sourceTree = "<group>";
+		};
+		A5B64C591CAD33EA00EA6299 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A5B64C5C1CAD340900EA6299 /* Controller */,
+				A5B64C5B1CAD340700EA6299 /* Model */,
+				A5B64C5A1CAD340500EA6299 /* View */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A5B64C5A1CAD340500EA6299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5B64C281CAD32C500EA6299 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5B64C5B1CAD340700EA6299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5B64C5C1CAD340900EA6299 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5B64C251CAD32C500EA6299 /* ViewController.h */,
+				A5B64C261CAD32C500EA6299 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5B64C5D1CAD35BB00EA6299 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Expand;
+			sourceTree = "<group>";
+		};
+		A5B64C5E1CAD35CC00EA6299 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
