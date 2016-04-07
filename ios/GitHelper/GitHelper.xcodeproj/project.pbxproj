@@ -15,6 +15,8 @@
 		A5B64C2F1CAD32C500EA6299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B64C2D1CAD32C500EA6299 /* LaunchScreen.storyboard */; };
 		A5B64C3A1CAD32C500EA6299 /* GitHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B64C391CAD32C500EA6299 /* GitHelperTests.m */; };
 		A5B64C451CAD32C500EA6299 /* GitHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B64C441CAD32C500EA6299 /* GitHelperUITests.m */; };
+		A5F859371CB3C731005CB5B4 /* webController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F859361CB3C731005CB5B4 /* webController.m */; };
+		A5F8593A1CB3C8AD005CB5B4 /* helpController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F859391CB3C8AD005CB5B4 /* helpController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A5B64C401CAD32C500EA6299 /* GitHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B64C441CAD32C500EA6299 /* GitHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHelperUITests.m; sourceTree = "<group>"; };
 		A5B64C461CAD32C500EA6299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5F859351CB3C731005CB5B4 /* webController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webController.h; sourceTree = "<group>"; };
+		A5F859361CB3C731005CB5B4 /* webController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webController.m; sourceTree = "<group>"; };
+		A5F859381CB3C8AD005CB5B4 /* helpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpController.h; sourceTree = "<group>"; };
+		A5F859391CB3C8AD005CB5B4 /* helpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +200,10 @@
 			children = (
 				A5B64C251CAD32C500EA6299 /* ViewController.h */,
 				A5B64C261CAD32C500EA6299 /* ViewController.m */,
+				A5F859351CB3C731005CB5B4 /* webController.h */,
+				A5F859361CB3C731005CB5B4 /* webController.m */,
+				A5F859381CB3C8AD005CB5B4 /* helpController.h */,
+				A5F859391CB3C8AD005CB5B4 /* helpController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -342,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F859371CB3C731005CB5B4 /* webController.m in Sources */,
+				A5F8593A1CB3C8AD005CB5B4 /* helpController.m in Sources */,
 				A5B64C271CAD32C500EA6299 /* ViewController.m in Sources */,
 				A5B64C241CAD32C500EA6299 /* AppDelegate.m in Sources */,
 				A5B64C211CAD32C500EA6299 /* main.m in Sources */,
@@ -568,6 +580,7 @@
 				A5B64C4B1CAD32C500EA6299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5B64C4C1CAD32C500EA6299 /* Build configuration list for PBXNativeTarget "GitHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +589,7 @@
 				A5B64C4E1CAD32C500EA6299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5B64C4F1CAD32C500EA6299 /* Build configuration list for PBXNativeTarget "GitHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +598,7 @@
 				A5B64C511CAD32C500EA6299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

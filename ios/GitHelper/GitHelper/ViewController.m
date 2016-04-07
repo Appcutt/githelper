@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "webController.h"
+#import "helpController.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"首页";
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+- (IBAction)helpBtnClick:(UIButton *)sender {
+    
+    helpController *helpCon = [[helpController alloc] init];
+    
+    [self.navigationController pushViewController:helpCon animated:NO];
+}
+
+
+- (IBAction)baiduBtnClick {
+    
+    webController *webCon = [[webController alloc] init];
+    
+    [self.navigationController pushViewController:webCon animated:NO];
 }
 
 @end
